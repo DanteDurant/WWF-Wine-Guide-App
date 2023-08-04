@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "ChampionWine",
+    "slug": "wwf-wine",
+    "version": "1.5.2",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "REMOVED"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.wwfconservationchampions",
+      "versionCode": 10
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "za.co.brandfoundry.ChampionWineGuide"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f137415d-ad70-4e0d-80f5-a0ee5eec4b5b"
+      }
+    }
+  }
+}
